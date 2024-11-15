@@ -172,6 +172,7 @@ ESPHome-specific components or components supporting ESPHome device provisioning
     Improv via BLE, components/esp32_improv, improv.svg, dark-invert
     Improv via Serial, components/improv_serial, improv.svg, dark-invert
     Interval, components/interval, description.svg, dark-invert
+    JSON, components/json, json.svg, dark-invert
     Script, components/script, description.svg, dark-invert
 
 ESPHome Configuration
@@ -257,12 +258,13 @@ Hardware Peripheral Interfaces/Busses
 
 .. imgtable::
 
+    1-Wire, components/one_wire, one-wire.svg
     CAN Bus, components/canbus/index, canbus.svg
     I²C Bus, components/i2c, i2c.svg
     I²S Audio, components/i2s_audio, i2s_audio.svg
+    OpenTherm, components/opentherm, opentherm.png
     SPI Bus, components/spi, spi.svg
     UART, components/uart, uart.svg
-    1-Wire, components/one_wire, one-wire.svg
 
 I/O Expanders/Multiplexers
 --------------------------
@@ -1019,6 +1021,7 @@ Audio DAC Components
 
     Audio DAC Core, components/audio_dac/index, audio_dac.svg
     AIC3204, components/audio_dac/aic3204, aic3204.svg
+    ES8311, components/audio_dac/es8311, es8311.svg
 
 Media Player Components
 -----------------------
